@@ -1,0 +1,31 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "customer_service",
+         "patterns": ["Can I place a sales order?", "I would like to place an order?", "Please submit an order for rolls coatings adhesives stressbase flexbase garlaflex garlaprime sa primer liquitec white knight cap sheet base sheet kee stone unibond" ],
+         "responses": ["Sounds great! I've sent your order to Nichole and Robert and you will receive an order confirmation email soon!", "Great job, making progress on the Wise Trophy standings. You will receive your order confirmation in just a moment!"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard, Visa, Discover, or American Express?", "Can you take a bankk transfer?" ],
+         "responses": ["That is handled through our payment portal.  I'll connect you with our credit team now!", "I've connected you with our credit team to assist!"]
+        },
+        {"tag": "logistics",
+         "patterns": ["When will my order ship?", "Do you have a tracking number for this order?", "I would like to schedule a delivery", "Can I have an update on this?", "Is this product in stock?", "What is the lead time for this product?"],
+         "responses": ["I've connected you with our Logistics team to assist!", "Our Logistics department will be in touch with you shortly!"]
+        },
+        {"tag": "product_management",
+         "patterns": ["Can you help with a warranty?", "I am having problems or issues with a product.", "The roof has cracking, coverage, alligatoring, cold weather, warm weather, or other problems", "The product isn't laying correctly.", "Does this product work with torch base rolls?", "How many mils or other specifics does this product have or cover?", "I have a question about a roll, coating, or adhesive."],
+         "responses": ["I've connected you with our Product Management team to assist!", "Our Technical department will be in touch with you shortly!"]
+        }
+   ]
+}
